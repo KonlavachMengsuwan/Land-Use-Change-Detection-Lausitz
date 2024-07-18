@@ -185,7 +185,24 @@ Export.image.toDrive({
 });
 
 Export.image.toDrive({
-  image: water
+  image: water2023,
+  description: 'Water_2023',
+  folder: 'EarthEngineExports',
+  fileNamePrefix: 'Water_2023',
+  region: brandenburg,
+  scale: 30,
+  crs: 'EPSG:4326'
+});
+
+Export.image.toDrive({
+  image: landUseChangeToWater,
+  description: 'Land_Use_Change_to_Water',
+  folder: 'EarthEngineExports',
+  fileNamePrefix: 'Land_Use_Change_to_Water',
+  region: brandenburg,
+  scale: 30,
+  crs: 'EPSG:4326'
+});
 ```
 
 ## Water 2015
